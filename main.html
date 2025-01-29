@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <!-- Bootstrap CSS (via CDN) -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+    <div>
+        <button id="creating_room_option">Creating Room</button>
+        <button id="login_room_option">Login Room</button>
+    </div>
+
+    <div class="avatar_div" id="avatar">
+        <table id="avatar_table"></table>
+        <input type="text" id="avatar_path" hidden value=" ">
+    </div>
+
+    <div class="player_list" id="creating">
+        <label>CREATING ROOM</label><br>
+        <label>Your name/label>
+        <input type="text" id="player_name_creating_room"><br>
+
+        <label>Gender</label>
+        <input type="text" id="player_gender_creating_room"><br>
+        <button id="creat_room_button">CREATING</button>
+    </div>
+
+    <div class="player_list" id="login">
+        <label>Your name</label>
+        <input type="text" id="player_name"><br>
+
+        <label>Gender</label>
+        <input type="text" id="player_gender"><br>
+
+        <label>Room ID</label>
+        <input type="number" id="Room_id"><br>
+        <button id="login_button">SEND</button>
+
+
+        <a href="main2.html" target="_blank">HERE_2</a>
+    </div>
+
+    <script type="module" src="login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
